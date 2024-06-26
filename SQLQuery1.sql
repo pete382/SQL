@@ -15,7 +15,9 @@
 
 --create table Favorite(id int Primary Key Not Null identity(1,1),
 --userId int FOREIGN KEY REFERENCES [userId](id),
---eventId int FOREIGN KEY REFERENCES [event](id))
+--eventId int FOREIGN KEY REFERENCES [event](id),
+--[isFavorite] [bit] NULL
+--)
 
 
 
